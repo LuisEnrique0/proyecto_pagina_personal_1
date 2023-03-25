@@ -29,7 +29,13 @@ li{
 p{
     font-weight: bold;
     color: gray;
-    text-shadow: -3px 3px 3px lightgray;
+    text-shadow: -3px 3px 3px black;
     font-size: x-large;
     letter-spacing: 3px;
+}
+img{
+    width: 300px;
+}
+header{
+    background: linear-gradient(gray, lightgray);
 }
