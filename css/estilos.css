@@ -28,8 +28,8 @@ li{
 }
 p{
     font-weight: bold;
-    color: gray;
-    text-shadow: -3px 3px 3px black;
+    color: black;
+    text-shadow: -3px 3px 3px gray;
     font-size: x-large;
     letter-spacing: 3px;
 }
@@ -38,4 +38,5 @@ img{
 }
 header{
     background: linear-gradient(gray, lightgray);
+    padding: 80px;
 }
