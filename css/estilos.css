@@ -15,6 +15,7 @@ img{
 /* Barra de Menú */
 a{
     text-decoration: none;
+    color: black;
 }
 li{
     border: solid 3px gray;
@@ -39,4 +40,7 @@ img{
 header{
     background: linear-gradient(gray, lightgray);
     padding: 80px;
+}
+ul{
+    display: flex;
 }
