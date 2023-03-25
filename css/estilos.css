@@ -26,3 +26,10 @@ li{
     border-radius: 30px;
     box-shadow: 3px 3px 3px black;
 }
+p{
+    font-weight: bold;
+    color: gray;
+    /* text-shadow: 3px 3px 3px black; */
+    font-size: x-large;
+    letter-spacing: 3px;
+}
