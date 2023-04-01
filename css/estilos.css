@@ -101,3 +101,26 @@ li:hover{
     background-position: center;
     background-size: cover;
 }
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+.acerca2{
+    display: flex;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    width: 60%;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient (rgba(128, 128, 128, 0.454), rgba(211, 211, 211, 0.346));
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 30px;
+}
+.acerca1{
+    height: 30vh;
+    justify-content: center;
+}
