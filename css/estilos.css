@@ -41,13 +41,22 @@ p{
     letter-spacing: 3px;
 }
 img{
-    width: 300px;
+    width: 200px;
 }
 header{
     background: linear-gradient(gray, lightgray);
     padding: 80px;
-    width: 100%;
+     width: 100%;
+    height: 100vh;
 }
 ul{
     display: flex;
+}
+nav{
+    display: flex;
+    height: 20vh;
+    /* alinear alementos en forma vertical */
+    align-items: center;
+    /* alinear elementos de forma horizontal */
+    justify-content: space-between;
 }
