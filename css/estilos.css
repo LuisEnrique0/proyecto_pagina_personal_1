@@ -7,6 +7,12 @@ img{
     border: dashed 3px blueviolet;
     padding: 10px;
 } */
+/* footer{
+    background: linear-gradient(gray, lightgray);
+    width: 30%;
+    height: 30vh;
+    overflow: auto;
+} */
 /* Instruccion para eliminar margenes */
 *{
     margin: 0;
@@ -40,13 +46,8 @@ img{
 header{
     background: linear-gradient(gray, lightgray);
     padding: 80px;
+    width: 100%;
 }
 ul{
     display: flex;
-}
-footer{
-    background: linear-gradient(gray, lightgray);
-    width: 30%;
-    height: 30vh;
-    overflow: auto;
 }
