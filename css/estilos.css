@@ -44,3 +44,8 @@ header{
 ul{
     display: flex;
 }
+footer{
+    background: linear-gradient(gray, lightgray);
+    width: 30%;
+    height: 30vh;
+}
