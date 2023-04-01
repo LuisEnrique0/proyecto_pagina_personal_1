@@ -43,7 +43,7 @@ nav p{
     letter-spacing: 3px;
 }
 img{
-    width: 200px;
+    width: 25%;
 }
 header{
     background: linear-gradient(gray, lightgray);
@@ -61,7 +61,7 @@ nav{
     /* alinear alementos en forma vertical */
     align-items: center;
     /* alinear elementos de forma horizontal */
-    justify-content: center;
+    justify-content: center; 
 }
 .caja{
     display: flex;
@@ -84,4 +84,11 @@ span{
     color: black;
     font-style: italic;
     text-shadow: 3px 3px 3px black;
+}
+/* seudoclase para cambiar elementos al pasar el mouse sobre ellos */
+li:hover{
+    /* opacity: .5; */
+    color: white;
+    background-color: black;
+    /* font-size: 2em; */
 }
