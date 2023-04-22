@@ -141,7 +141,26 @@ h2{
     right: 1px;
     bottom: 1px;
 }
-
+/* seccion paralax */
+.paralax{
+    width: 100%;
+    height: 40vh;
+    background:url(../img/fondo_paralax.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paralax p{
+    color: white;
+}
+.portafolio{
+    width: 100%;
+    height: 40vh;
+}
 /* De a aqui para abajo es el diseño para celular */
 @media(max-width: 900px){
     header{
