@@ -131,6 +131,11 @@ h2{
 .hamburguesa{
     display: none;
 }
+/* # se utiliza para estilos sobre id cuando no hay clases */
+#menu{
+    visibility: hidden;
+}
+
 /* De a aqui para abajo es el diseño para celular */
 @media(max-width: 900px){
     header{
@@ -138,10 +143,20 @@ h2{
     }
     nav ul{
         display: none;
+        position: absolute;
+        top: 150px;
+        right: 50px;
     }
     .hamburguesa{
         display: block;
-        width: 15%;
+        width: 30%;
     }
+    
+    input:checked ~ul{
+        display: block;
+        background-color: lightslategray;
+
+    }
+    
 
 }
