@@ -156,6 +156,15 @@ h2{
 }
 .paralax p{
     color: white;
+    width: 60%;
+    font-size: 60px;
+    /* text-shadow para efecto neon  */
+    text-shadow: 0 0 7px #ffff,
+    0 0 14px #ffff,
+    0 0 21px #ffff,
+    0 0 40px #993f3f,
+    0 0 80px #423f99,
+    0 0 120px #3f7b99;
 }
 .portafolio{
     width: 100%;
