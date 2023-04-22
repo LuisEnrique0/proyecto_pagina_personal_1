@@ -135,6 +135,12 @@ h2{
 #menu{
     visibility: hidden;
 }
+/* estilos de logo de whastapp */
+.whastapp{
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+}
 
 /* De a aqui para abajo es el diseño para celular */
 @media(max-width: 900px){
@@ -157,6 +163,16 @@ h2{
         background-color: lightslategray;
 
     }
-    
+    .cajita{
+        display: none;
+    }
+    .whastapp{
+        width: 15%;
+    }
+    .nombre{
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
 
 }
